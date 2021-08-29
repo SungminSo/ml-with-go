@@ -22,7 +22,7 @@ type CSVRecord struct {
 
 func main() {
 	// Go는 정적으로 타입을 지정하기 때문에 csv 필드에 대해 엄격하게 검사를 할 수 있다.
-	f, err := os.Open("../data/iris_with_unexpected_type.csv")
+	f, err := os.Open("data/Iris_with_unexpected_type.csv")
 	if err != nil {
 		log.Fatal(err)
 	}

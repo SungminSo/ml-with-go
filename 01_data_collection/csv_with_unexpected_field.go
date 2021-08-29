@@ -11,7 +11,7 @@ func main() {
 	// 데이터가 항상 명확하고 깔끔하게 되어있다는 보장이 없다.
 	// csv 레코드에서 예상치못한 필드나 필드의 수를 발견할 수 있다.
 	// iris_with_unexpected_field.csv 파일을 활용해 확인
-	f, err := os.Open("../data/iris_with_unexpected_field.csv")
+	f, err := os.Open("data/iris_with_unexpected_field.csv")
 	if err != nil {
 		log.Fatal(err)
 	}
